@@ -54,6 +54,9 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          "options": {
+            "allowedHosts": ["hyperelegantly-unarousable-vaughn.ngrok-free.dev"]
+          },
           "configurations": {
             "production": {
               "buildTarget": "my-app:build:production"
